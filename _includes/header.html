@@ -18,11 +18,11 @@
         {% when 'tr' %}
           <a class="page-link" id="lang-other" href="{{ site.url }}/en/blog/">en</a>
           <a class="page-link" id="lang" href="{{ site.url }}/tr/blog/">tr</a>
-        {% when 'en' %}
-          <a class="page-link" id="lang" href="{{ site.url }}/en/blog/">en</a>
+        {% when 'all' %}
+          <a class="page-link" id="lang-other" href="{{ site.url }}/en/blog/">en</a>
           <a class="page-link" id="lang-other" href="{{ site.url }}/tr/blog/">tr</a>
         {% else %}
-          <a class="page-link" id="lang-other" href="{{ site.url }}/en/blog/">en</a>
+          <a class="page-link" id="lang" href="{{ site.url }}/en/blog/">en</a>
           <a class="page-link" id="lang-other" href="{{ site.url }}/tr/blog/">tr</a>
         {% endcase %}
         |
