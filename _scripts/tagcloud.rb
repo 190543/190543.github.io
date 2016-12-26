@@ -46,9 +46,12 @@ end
 
 $stderr.puts "generating tag cloud"
 
-options = Jekyll.configuration({})
-site = Jekyll::Site.new(options)
-site.read_posts('')
+site = Jekyll::Site.new(Jekyll.configuration({
+  'source' => '.',
+  'destination' => '_site',
+  'config' => '_config.yml'
+}))
+site.process
 
 cloud = TagCloud::Perl.new(site)
 cloud.write_html nil

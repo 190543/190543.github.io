@@ -2,7 +2,7 @@
 # coding: utf-8
 # Copyright 2010, 2011 Ali Polatel <polatel@gmail.com>
 
-%w{fileutils rubygems jekyll}.each {|m| require m}
+%w{fileutils rubygems jekyll byebug}.each {|m| require m}
 
 def taglist_write(site, lang = nil)
   File.open("#{lang.nil? ? '' : "#{lang}/"}tags/index.html", 'w+') do |f|
@@ -45,9 +45,12 @@ end
 
 $stderr.puts "generating tag lists"
 
-options = Jekyll.configuration({})
-site = Jekyll::Site.new(options)
-site.read_posts('')
+site = Jekyll::Site.new(Jekyll.configuration({
+  'source' => '.',
+  'destination' => '_site',
+  'config' => '_config.yml'
+}))
+site.process
 
 FileUtils.mkdir_p 'tags'
 taglist_write(site, nil)
