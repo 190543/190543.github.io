@@ -6,7 +6,7 @@ tags: [sydbox, amd64, x86]
 uuid: 0cd62e4c-356d-4f52-b854-5b649a888d63
 ---
 
-After some initial work, here's how my sandbox replacement [sydbox](http://alip.github.com/sydbox) looks:  
+After some initial work, here's how my sandbox replacement [sydbox]({{site.url}}/sydbox) looks:  
 ![It Works!](/images/sydbox-working.png)  
 Looks cool, don't you think? ;)  
 Right now, it only works fine on amd64.  

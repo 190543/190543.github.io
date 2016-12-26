@@ -24,6 +24,6 @@ architectures are x86 and x86\_64
 but adding support for new architectures should be trivial.  
 If you’re interested in porting please send a mail to me or leave a comment to this post.
 
-homepage: [http://alip.github.com/sydbox/](http://alip.github.com/sydbox/)  
+homepage: [{{site.url}}/sydbox/]({{site.url}}/sydbox/)  
 tarball: [sydbox-0.1\_alpha.tar.bz2](http://alip.anapnea.net/sydbox/sydbox-0.1_alpha.tar.bz2)  
 sha1sum: e6d40372242951da90973490923c3fc14622c2a4

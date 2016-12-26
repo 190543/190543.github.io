@@ -15,8 +15,8 @@ linked stripped binaries which acts like a bridge between chess clients and the
 chess server.
 
 To make sure these tools don't do anything nasty, I use
-[sydbox](http://alip.github.com/sydbox) to sandbox them.
-[Sydbox](http://alip.github.com/sydbox)'
+[sydbox]({{site.url}}/sydbox) to sandbox them.
+[Sydbox]({{site.url}}/sydbox)'
 [master](http://github.com/alip/sydbox/tree/master) extends network
 [whitelisting](http://en.wikipedia.org/wiki/Whitelist) support for network mode
 deny. So I use it like:
@@ -34,7 +34,7 @@ deny. So I use it like:
 
 {% endhighlight %}
 
-**SYDBOX\_NO\_CONFIG** makes [sydbox](http://alip.github.com/sydbox) not read its
+**SYDBOX\_NO\_CONFIG** makes [sydbox]({{site.url}}/sydbox) not read its
 configuration file and **SYDBOX\_NET\_WHITELIST** adds the address, in this case
 [freechess.org](http://www.freechess.org), to the network whitelist.
 

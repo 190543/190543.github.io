@@ -39,7 +39,7 @@ projelerini bulabilirsiniz. Daha detaylı bilgi için [GitHub](http://github.com
 
 * **mpdcron**: mpd için [cron](http://www.belgeler.org/man/man8/man8-cron.html) benzeri bir uygulama
 
-  - [http://alip.github.com/mpdcron](http://alip.github.com/mpdcron)
+  - [https://alip.github.io/mpdcron](https://alip.github.io/mpdcron)
   - [http://github.com/alip/mpdcron](http://github.com/alip/mpdcron)
   - [http://www.ohloh.net/p/mpdcron](http://www.ohloh.net/p/mpdcron)
   - [http://mpd.wikia.com/wiki/Client:MPDCRON](http://mpd.wikia.com/wiki/Client:MPDCRON)

@@ -7,8 +7,8 @@ uuid: ff7dda18-7b42-4e74-b8ba-3f56190712d5
 ---
 
 Now that `addpredict` is
-[dead](http://alip.github.com/english/2009/08/22/deprecating-addpredict.html), the next thing to
-implement for [sydbox](http://alip.github.com/sydbox) is
+[dead]({{site.url}}/english/2009/08/22/deprecating-addpredict.html), the next thing to
+implement for [sydbox]({{site.url}}/sydbox) is
 proper network sandboxing. I've been working for the past three days to do that.
 
 First of all let's define what we want:

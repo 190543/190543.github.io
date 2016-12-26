@@ -11,7 +11,7 @@ Here is a tip to make a multilingual site using
 [Jekyll](http://jekyllrb.com/) relatively easily and with few duplications.
 
 I will be giving examples from my own experience for
-[http://alip.github.com/](http://alip.github.com/)
+[{{site.url}}/]({{site.url}}/)
 
 Start by specifying the language in
 [YAML Front Matter](http://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)

@@ -6,7 +6,7 @@ permalink: "/:categories/:year/:month/:day/:title/"
 markdown: kramdown
 hilighter: pygments
 lsi: false
-exclude: [.gitignore, _config.yml, _libraries, Makefile, tidy.log]
+exclude: [.gitignore, _config.yml, _libraries, Makefile, tidy.log, old]
 gems:
   - jekyll-sitemap
 

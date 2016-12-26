@@ -10,7 +10,7 @@ Running external commands in the metadata phase of exheres/ebuild is obviously a
 bad idea because this phase is used to generate caches.
 
 [Ciaranm](http://ciaranm.wordpress.com/) has come up with an idea to generate
-[Sydbox](http://alip.github.com/sydbox) access violations when  
+[Sydbox]({{site.url}}/sydbox) access violations when  
 execve() family functions are called in the metadata phase. This was rather easy  
 to [implement](http://github.com/alip/sydbox/commit/6e822623d9670688a1ec88804b81896d5ab22314).
 

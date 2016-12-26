@@ -8,7 +8,7 @@ uuid: 25a3206e-e3a7-48fd-8622-98a4fb2a8962
 
 Starting [today](http://bit.ly/pzJsr), [Exherbo](http://www.exherbo.org)'s default
 [sandbox](http://en.wikipedia.org/wiki/Sandbox_%28computer_security%29) is
-[sydbox](http://alip.github.com/sydbox/).  
+[sydbox]({{site.url}}/sydbox/).  
 Yay!
 
 **Important note** to [Exherbo](http://www.exherbo.org) users:  

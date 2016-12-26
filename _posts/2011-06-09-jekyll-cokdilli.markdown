@@ -11,7 +11,7 @@ Burada [Liquid](http://www.liquidmarkup.org/) şablonları ve
 [Jekyll](http://jekyllrb.com/) ile nasıl basitçe çok dilli bir site
 tasarlayabileceğinizden bahsedeceğim.
 
-Örnekleri [http://alip.github.com/](http://alip.github.com/) sitesini
+Örnekleri [{{site.url}}/]({{site.url}}/) sitesini
 tasarlarkenki tecrübelerimden vereceğim.
 
 Öncelikle dili özel bir etiket ile - ben bunun için `lang` kelimesini seçtim -

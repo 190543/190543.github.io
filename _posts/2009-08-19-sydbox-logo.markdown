@@ -6,7 +6,7 @@ tags: [logo, png, svg, sydbox]
 uuid: 950d7192-6012-4826-8c03-e6fa0d0ba352
 ---
 
-As **$title** says [sydbox](http://alip.github.com/sydbox/) needs a
+As **$title** says [sydbox]({{site.url}}/sydbox/) needs a
 [logo](http://en.wikipedia.org/wiki/Logo). We discussed this today in
 [#exherbo](irc://irc.freenode.net/exherbo) and some good ideas came up.  
 I added a **logo** section to our

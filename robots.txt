@@ -1,1 +1,1 @@
-Sitemap: http://alip.github.io/sitemap.xml
+Sitemap: https://alip.github.io/sitemap.xml

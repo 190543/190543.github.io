@@ -39,7 +39,7 @@ for more detailed information.
 
 * **mpdcron**: [Cron](http://en.wikipedia.org/wiki/Cron) like utility for the Music Playing Daemon
 
-  - [http://alip.github.com/mpdcron](http://alip.github.com/mpdcron)
+  - [{{site.url}}/mpdcron]({{site.url}}/mpdcron)
   - [http://github.com/alip/mpdcron](http://github.com/alip/mpdcron)
   - [http://www.ohloh.net/p/mpdcron](http://www.ohloh.net/p/mpdcron)
   - [http://mpd.wikia.com/wiki/Client:MPDCRON](http://mpd.wikia.com/wiki/Client:MPDCRON)
