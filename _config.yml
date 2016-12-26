@@ -7,6 +7,8 @@ markdown: kramdown
 hilighter: pygments
 lsi: false
 exclude: [.gitignore, _config.yml, _libraries, Makefile, tidy.log]
+gems:
+  - jekyll-sitemap
 
 # Custom variables
 title: "~alip"
