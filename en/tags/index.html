@@ -359,6 +359,17 @@ lang: en
       </h2>
     </li>
   </ul>
+{% assign myvar = "şiir" %}
+{% include handleize.liquid %}
+<h1 id="{{ myid }}">şiir</h2>
+  <ul class="post-list">
+    <li>
+      <h2 style="display: inline;">
+        <span class="post-meta">2013-06-13</span>
+        <a class="post-link" href="{{ site.url }}/en/blog/2013/06/13/i-cannot-describe/">I Can Not Tell</a>
+      </h2>
+    </li>
+  </ul>
 {% assign myvar = "exherbo" %}
 {% include handleize.liquid %}
 <h1 id="{{ myid }}">Exherbo</h2>
@@ -445,17 +456,6 @@ lang: en
       <h2 style="display: inline;">
         <span class="post-meta">2009-03-16</span>
         <a class="post-link" href="{{ site.url }}/en/blog/2009/03/16/summary-of-kloeris-presentation/">Summary of Kloeri's Presentation</a>
-      </h2>
-    </li>
-  </ul>
-{% assign myvar = "şiir" %}
-{% include handleize.liquid %}
-<h1 id="{{ myid }}">şiir</h2>
-  <ul class="post-list">
-    <li>
-      <h2 style="display: inline;">
-        <span class="post-meta">2013-06-13</span>
-        <a class="post-link" href="{{ site.url }}/en/blog/2013/06/13/i-cannot-describe/">I Can Not Tell</a>
       </h2>
     </li>
   </ul>
