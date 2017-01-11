@@ -2,7 +2,7 @@
 layout: post
 title: Yuvasını başına yıktığım Fare'ye
 categories: [tr, blog]
-tags: [kaos, yazın, serbest, şiir, burns, steinbeck, fareler ve insanlar, mice and men]
+tags: [kaos, yazın, çeviri, şiir, robert burns, john steinbeck, fareler ve insanlar, mice and men]
 lang: tr
 uuid: 58dab95d-dc85-4459-996d-838b8f8f8a35
 ---
