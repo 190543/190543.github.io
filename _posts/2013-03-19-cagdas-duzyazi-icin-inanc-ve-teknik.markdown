@@ -15,7 +15,7 @@ uuid: d5e0724a-b913-4b97-a226-6aca312b30aa
 3. Kendi evinin dışında sarhoş olmamaya çalış
 4. Hayatına aşk ile bağlı ol
 5. Hissettiğin şeyler kendi biçimini bulacaktır
-6. Aklına yararlı olmak için çılgın bir dilsiz aziz ol
+6. Aklına yararlı olmak için çılgın, dilsiz bir aziz ol
 7. Düşebildiğin kadar derine düş
 8. Ne istiyorsan onu, zihninin en derininden getirerek sınırsızca yaz
 9. Bireyin kelimelerle anlatılamaz önsezileri
@@ -23,7 +23,7 @@ uuid: d5e0724a-b913-4b97-a226-6aca312b30aa
 11. Göğsünü titreten hayalperest çarpıntılar
 12. Kendinden geçmiş bir hareketsizlikle karşında duran nesneyi düşlemek
 13. Yazınsal, dilbilgisel ve sözdizinsel engelleri kaldır
-14. Proust gibi dönemin bunak bir ayyaşı ol
+14. Proust gibi döneminin bunak bir ayyaşı ol
 
 15. Dünyanın gerçek hikayesini içsel monolog ile anlatmak
 16. İlginin kıymetli merkezi gözün içindeki gözdür
