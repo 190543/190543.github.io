@@ -12,7 +12,7 @@ get any fucking better than that.
 
 Oh: Ev buldum lan. Na aşağıdaki! #direnkigülsünyüzün.
 
-[Ay gidiyor](https://dev.exherbo.org/~alip/images/bright-side-of-the-moon.jpg "I'll see you on the dark side of the moon.")
+![Ay gidiyor](https://dev.exherbo.org/~alip/images/bright-side-of-the-moon.jpg "I'll see you on the dark side of the moon.")
 
 Last and least. Here is a poem and a song that describes everything so far.
 Life. is. just. pregnant.
