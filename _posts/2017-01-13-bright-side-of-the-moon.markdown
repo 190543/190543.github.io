@@ -10,7 +10,8 @@ Quick Update: I have a flat! My German was barely enough to make it. Und
 zwar komisch. You get a flat on your birthday. Hard to say how it could
 get any fucking better than that.
 
-Oh: Ev buldum lan. Na aşağıdaki! #direnkigülsünyüzün.
+Oh: Ev buldum lan. Na aşağıdaki! #direnkigülsünyüzün. Yolu düşen gelsin.
+Yoksa. Ayıp. Olur. Bana. Bak. Manifestolâmin.
 
 ![Ay gidiyor](https://dev.exherbo.org/~alip/images/bright-side-of-the-moon.jpg "I'll see you on the dark side of the moon.")
 
