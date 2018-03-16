@@ -1,4 +1,4 @@
-# alip's jekyll config
+# jekyll config
 # vim: set ft=yaml et ts=2 sts=2 :
 
 # Configuration
@@ -11,39 +11,18 @@ gems:
   - jekyll-sitemap
 
 # Custom variables
-title: "~alip"
-url: "https://alip.github.io"
-keywords: "Ali Polatel,alip,blog,programming,coding,personal,homepage,chaos,satranç,satranç dersi,şiir,edebiyat,çağrışım,kaos"
+title: "番茄女王的花园"
+url: "https://tomato.github.io"
+keywords: ""
 
 # Author information
 author:
-  name: "Ali Polatel"
-  mail: "alip@exherbo.org"
-  jid:  "alip@jaim.at"
-  facebook: "hayaliali"
-  github: "alip"
-  googleplus: "AliPolatel"
-  keybase: "alip"
-  linkedin: "polatel"
-  twitter: "hayaliali"
-  twtxt: "https://dev.exherbo.org/~alip/twtxt.txt"
+  name: "Queen Tomato"
+  mail: "190543745@qq.com"
+  github: "tomato"
+  keybase: "tomato"
 
 # Disqus
 disqus:
-  shortname: "alip"
+  shortname: "tomato"
 
-# Feeds
-rss:
-  all: "http://feeds.feedburner.com/alip"
-  en:  "http://feeds.feedburner.com/alip-english"
-  tr:  "http://feeds.feedburner.com/alip-turkish"
-
-# Tags
-tag:
-  cloud:
-    levels: 15
-    limit:  100
-
-  list:
-    en: en/tags/index.html
-    tr: tr/tags/index.html

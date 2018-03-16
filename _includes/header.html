@@ -14,26 +14,12 @@
       </a>
 
       <div class="trigger">
-        {% case page.lang %}
-        {% when 'tr' %}
-          <a class="page-link" id="lang-other" href="{{ site.url }}/en/blog/">en</a>
-          <a class="page-link" id="lang" href="{{ site.url }}/tr/blog/">tr</a>
-        {% when 'all' %}
-          <a class="page-link" id="lang-other" href="{{ site.url }}/en/blog/">en</a>
-          <a class="page-link" id="lang-other" href="{{ site.url }}/tr/blog/">tr</a>
-        {% else %}
-          <a class="page-link" id="lang" href="{{ site.url }}/en/blog/">en</a>
-          <a class="page-link" id="lang-other" href="{{ site.url }}/tr/blog/">tr</a>
-        {% endcase %}
-        |
-
+       
         <a class="page-link" href="{{ site.rss.all}}"><i class="fa fa-rss fa-lg" aria-hidden="true"></i></a>
         <a class="page-link" href="mailto:{{site.author.mail}}"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
         <a class="page-link" href="https://github.com/{{site.author.github}}"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
         <a class="page-link" href="https://tr.linkedin.com/in/{{site.author.linkedin}}"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
         <a class="page-link" href="https://twitter.com/{{site.author.twitter}}"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
-        |
-        <a class="page-link" href="{{ site.author.twtxt }}"><tt>:(){:|:&};:</tt></a>
       </div>
     </nav>
 

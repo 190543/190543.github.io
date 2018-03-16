@@ -12,74 +12,65 @@ layout: default
   </article>
 
     <p class="post-meta">
-      {% case page.lang %}
-      {% when 'tr' %}
-        <span class="name">Tarih:</span> {{ page.date | date: "%Y-%m-%d"}}<br />
-        <span class="name">Yafta:</span>
-        {% for mytag in page.tags %}
-          {% include tag-link.liquid %}
-          {% unless forloop.last %}|{% endunless %}
-        {% endfor %}
-        <br />
-      {% when 'en' %}
-        <span class="name">Date:</span> {{ page.date | date: "%Y-%m-%d"}}<br />
-        <span class="name">Tags:</span>
-        {% for mytag in page.tags %}
-          {% include tag-link.liquid %}
-          {% unless forloop.last %}|{% endunless %}
-        {% endfor %}
-        <br />
-      {% endcase %}
+ 	<p class="post-meta">
+	  <div class='container'>
+	<div class="button-container">
+		<div class='button -sun center' id="open">赞赏</div>
+	</div>
+	</div>
+	<br />
     </p>
-  <div id="related">
-    {% case page.lang %}
-    {% when 'tr' %}
-      <h3>İlgili Postalar</h3>
-    {% else %}
-      <h3>Related Posts</h3>
-    {% endcase %}
-    <ul class="post-list">
-      {% for post in site.related_posts limit:3 %}
-        <li>
-          <h2 style="display: inline;">
-            <span class="post-meta">{{ post.date | date:  "%Y-%m-%d" }}</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+	<div id="popup" class="popup-wrapper hide no_shadow">
+		<div class="popup-content">
+		    <div class="popup-title">
+		        <button type="button" class="popup-close">&times;</button>
+		        <h3>Title</h3>
+		    </div>
+		    <div class="popup-body">
+			<div class="column-wrapper">
+				<div class="column">
+					<img src="{{site.url}}/images/qr.jpg" />
+				</div>
+				<div class="column">
+				<img src="{{site.url}}/images/qr.jpg" />
+				</div>
+			</div>
+		        
+		        
+			<div class="container" style="clear:both;float:none">
+			<div class="button-container">
+			    <div class='button -regular center' id="close">Close</div>
+			</div>
+			</div>
+		    </div>
+			
+
+		</div>
+	    </div>
+
 </div>
 
-<div id="disqus">
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-     var disqus_shortname = '{{ site.disqus.shortname }}';
-     var disqus_identifier = '{{ page.uuid }}';
-     var disqus_config = function () {
-       this.language = "{{ page.lang }}";
-     };
-     (function() {
-       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-       dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-     })();
-  </script>
-  <noscript>
-    <p>
-    {% case page.lang %}
-    {% when 'tr' %}
-      <a href="http://disqus.com/?ref_noscript">Disqus tarafından sağlanan yorumlara</a>
-      ulaşabilmek için JavaScript'i etkin hale getirmelisiniz.
-    {% else %}
-      Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-    {% endcase %}
-    </p>
-  </noscript>
-  {% case page.lang %}
-  {% when 'tr' %}
-    <a href="http://disqus.com" class="dsq-brlink">Yorumlar <span class="logo-disqus">Disqus</span> tarafından sağlanmaktadır.</a>
-  {% else %}
-    <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span>.</a>
-  {% endcase %}
-</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="{{ site.url }}/js/popup.js"></script>
+<script>
+
+// var popupEl = document.getElementById('popup'); 
+
+         
+         var popup = $('#popup').popup({
+             width: 400,
+             height: 300
+         });
+
+        var open = document.getElementById('open');
+        var close = document.getElementById('close');
+
+        open.onclick = function() {
+            popup.open();
+        };
+
+        close.onclick = function() {
+            popup.close();
+        };
+</script>
+
